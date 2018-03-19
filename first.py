@@ -32,11 +32,4 @@ while t<60:
     if l!=None:
          print(str(id)+"   Percentage is : "+l)
 
-connection = sqlite3.connect("myTable.db")
-crsr = connection.cursor()
-sql_command = """CREATE TABLE student ( 
-roll_number INTEGER PRIMARY KEY, 
-fname VARCHAR(20), 
-lname VARCHAR(30), 
-gender CHAR(1), 
-percentage FLOAT(5);"""
+ 
